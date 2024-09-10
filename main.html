@@ -12,19 +12,19 @@
 	<h1 class="text-center">Internship Form</h1>
     <form action="" class="mb-3 p-4">
         <label for="first-name-input" class="form-label">First Name</label>
-        <input type="text" class="form-control w-25 " required id="first-name-input" >
+        <input type="text" class="form-control w-25 invalid-feedback" required id="first-name-input" >
 
         <label for="last-name-input" class="form-label">Last Name</label>
-        <input type="text" class="form-control w-25 " required  id="last-name-input" >
+        <input type="text" class="form-control w-25 invalid-feedback " required  id="last-name-input" >
 
         <label for="email-input" class="form-label">Email Address</label>
-        <input type="email" class="form-control w-25 " id="email-input" placeholder="xyz@gmail.com" required >
+        <input type="email" class="form-control w-25 invalid-feedback " id="email-input" placeholder="xyz@gmail.com" required >
 
         <label for="college-input" class="form-label">College</label>
-        <input type="text" class="form-control w-25 " id="college-input" required >
+        <input type="text" class="form-control w-25 invalid-feedback " id="college-input" required >
         
         <label for="grad-year-select" class="form-label">Graduation Year</label>
-        <select class=" w-25 form-select" required id="grad-year-select" >
+        <select class=" w-25 form-select invalid-feedback" required id="grad-year-select" >
             <option value="2020">2020</option>
             <option value="2021">2021</option>
             <option value="2022">2022</option>
@@ -32,10 +32,10 @@
         </select>
 
         <label for="roll-no-input" class="form-label">Roll No.</label>
-        <input type="text" class="form-control w-25 " id="roll-no-input" required >
+        <input type="text" class="form-control w-25 invalid-feedback" id="roll-no-input" required >
 
-        <input type="checkbox" class="" id="conditions-checkbox" required >
-        <label for="conditions-checkbox" class="form-label">Agree to terms and conditions.</label><br>
+        <input type="checkbox" class=" invalid-feedback" id="form-check-input" required >
+        <label for="form-check-input" class="form-label">Agree to terms and conditions.</label><br>
 
         <button type="submit" class="btn btn-primary">Submit Form</button>
     </form>
